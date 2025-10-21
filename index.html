@@ -1,1 +1,77 @@
-# zaraportfolio
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Responsive - Thème Sombre</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Thème sombre personnalisé -->
+    <style>
+        :root {
+            --bs-body-bg: #121212;
+            --bs-body-color: #e0e0e0;
+            --bs-primary: #bb86fc;
+            --bs-secondary: #03dac6;
+            --bs-card-bg: #1e1e1e;
+        }
+        body {
+            background-color: var(--bs-body-bg);
+            color: var(--bs-body-color);
+        }
+        .card {
+            background-color: var(--bs-card-bg);
+        }
+        a {
+            color: var(--bs-primary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-4">
+        <header class="mb-4">
+            <h1 class="text-center">Bienvenue sur ma page</h1>
+            <p class="text-center">Un exemple de page responsive avec Bootstrap 5 et un thème sombre.</p>
+        </header>
+
+        <main>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Carte 1</h5>
+                            <p class="card-text">Exemple de contenu responsive. Cette carte s'adapte à la taille de l'écran.</p>
+                            <a href="#" class="btn btn-primary">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Carte 2</h5>
+                            <p class="card-text">Exemple de contenu responsive. Cette carte s'adapte à la taille de l'écran.</p>
+                            <a href="#" class="btn btn-primary">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Carte 3</h5>
+                            <p class="card-text">Exemple de contenu responsive. Cette carte s'adapte à la taille de l'écran.</p>
+                            <a href="#" class="btn btn-primary">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-4 text-center">
+            <p>&copy; 2025 - Tous droits réservés</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
